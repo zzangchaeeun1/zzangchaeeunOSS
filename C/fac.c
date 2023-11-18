@@ -1,4 +1,4 @@
-// ¿ÀÀÏ·¯ ¼ö¸¦ °è»êÇÏ´Â ÇÔ¼öÀÔ´Ï´Ù.
+// ì˜¤ì¼ëŸ¬ ìˆ˜ë¥¼ ê³„ì‚°í•˜ëŠ” í•¨ìˆ˜ì…ë‹ˆë‹¤.
 #include <stdio.h>
 
 double factorial(double n) {
@@ -17,7 +17,7 @@ int main(void) {
     double k;
     k=1;
 
-    printf("n¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+    printf("në¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
     scanf("%lf", &i);
 
     while (i != 0) {
@@ -26,6 +26,6 @@ int main(void) {
         i--;
     }
         
-    printf("¿ÀÀÏ·¯ÀÇ ¼ö´Â %lfÀÔ´Ï´Ù.\n", k);
+    printf("ì˜¤ì¼ëŸ¬ì˜ ìˆ˜ëŠ” %lfì…ë‹ˆë‹¤.\n", k);
     return 0;
 }
